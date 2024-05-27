@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_layout_superior"
+    android:paddingLeft="@dimen/padding_layout_lateral"
+    android:paddingRight="@dimen/padding_layout_lateral">
+
+    <TextView
+        android:id="@+id/txtsalida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turno Jugador X"
+        android:textAlignment="center"></TextView>
+
+    <!-- PRIMER BLOQUE HORIZONTAL -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cuadro1"
+            android:layout_width="@dimen/tamano_cuadro"
+            android:layout_height="@dimen/tamano_cuadro"
+            android:text="X"
+            android:textAlignment="center"
+            style="@style/Estilotexto" />
+
+        <TextView
+            android:id="@+id/cuadro2"
+            android:layout_width="@dimen/tamano_cuadro"
+            android:layout_height="@dimen/tamano_cuadro"
+            android:text="0"
+            style="@style/Estilotexto" />
+
+        <TextView
+            android:id="@+id/cuadro3"
+            android:layout_width="@dimen/tamano_cuadro"
+            android:layout_height="@dimen/tamano_cuadro"
+            android:text="0"
+            style="@style/Estilotexto" />
+
+    </LinearLayout>
+
+
+    <!-- SEGUNDO BLOQUE HORIZONTAL -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cuadro4"
+            android:layout_width="@dimen/tamano_cuadro"
+            android:layout_height="@dimen/tamano_cuadro"
+            android:text="X"
+            android:textAlignment="center"
+            style="@style/Estilotexto" />
+
+        <TextView
+            android:id="@+id/cuadro5"
+            android:layout_width="@dimen/tamano_cuadro"
+            android:layout_height="@dimen/tamano_cuadro"
+            android:text="0"
+            style="@style/Estilotexto" />
+
+        <TextView
+            android:id="@+id/cuadro6"
+            android:layout_width="@dimen/tamano_cuadro"
+            android:layout_height="@dimen/tamano_cuadro"
+            android:text="0"
+            style="@style/Estilotexto" />
+
+    </LinearLayout>
+
+    <!-- TERCER BLOQUE HORIZONTAL -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cuadro7"
+            android:layout_width="@dimen/tamano_cuadro"
+            android:layout_height="@dimen/tamano_cuadro"
+            android:text="X"
+            android:textAlignment="center"
+            style="@style/Estilotexto" />
+
+        <TextView
+            android:id="@+id/cuadro8"
+            android:layout_width="@dimen/tamano_cuadro"
+            android:layout_height="@dimen/tamano_cuadro"
+            android:text="0"
+            style="@style/Estilotexto" />
+
+        <TextView
+            android:id="@+id/cuadro9"
+            android:layout_width="@dimen/tamano_cuadro"
+            android:layout_height="@dimen/tamano_cuadro"
+            android:text="0"
+            style="@style/Estilotexto" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btninicia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Iniciar" />
+
+</LinearLayout>
